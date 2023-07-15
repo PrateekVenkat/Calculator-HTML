@@ -1,0 +1,397 @@
+#main
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 350px;
+    margin-top: 40px;
+    height: 380px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: rgb(13, 13, 27);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+*
+{
+    background-color:dimgrey;
+}
+#top
+{
+   
+    margin-top: 2px;
+    border-radius: 10px;
+    width: 270px;
+    height: 60px;
+    margin-left: 2px;
+    margin-right: 3px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: end;
+    font-size: 40px;
+    background-color:aliceblue;
+}
+#bottom
+{
+   
+    margin-bottom: 2px;
+    margin-left: 2px;
+    border-radius: 10px;
+    height:280px;
+    width:270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(104, 104, 136);
+  
+}
+
+#frame1
+{
+    
+    margin: 2px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; background-color: rgb(104, 104, 136);
+}
+
+#seven
+{
+    
+    height: 30px;
+    border-radius: 90px 450px;
+    width: 50px;
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px ;
+}
+#seven:hover{
+    background-color: firebrick;
+    color: white;
+}
+#eight
+{
+    
+    height: 30px;
+    width: 50px;
+    border-radius: 90px 450px;
+    display: flex; font-size:20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px ;
+}
+#nine
+{
+    
+    height: 30px;
+    width: 50px;
+    border-radius: 90px 450px;
+    display: flex; font-size:20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px ;
+}
+#divide
+{
+   
+    height: 30px;
+    width: 50px; font-size:20px;
+    display: flex;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: white; box-shadow: 0px 0px 4px 3px ;
+}
+#frame2
+{
+    
+    margin: 2px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center; background-color: rgb(104, 104, 136);
+    justify-content: space-evenly;
+}
+
+    
+#four
+{
+    
+    height: 30px;
+    width: 50px;
+    border-radius: 90px 450px;
+    display: flex; font-size:20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px ;
+}
+#five
+{
+    
+    height: 30px;
+    width: 50px; font-size:20px;
+    border-radius: 90px 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px ;
+}
+#six
+{
+   
+    height: 30px;
+    width: 50px; font-size:20px;
+    border-radius: 90px 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px ; ;
+}
+#multiply
+{
+    
+    height: 30px;
+    width: 50px;
+    border-radius: 100px;
+    display: flex; font-size:30px;
+    align-items: center;
+    justify-content: center;
+    background-color: white; box-shadow: 0px 0px 4px 3px ;
+}
+#frame3
+{
+    
+    margin: 2px;
+    width: 250px;
+    height: 50px;
+    display: flex; background-color: rgb(104, 104, 136);
+    align-items: center;
+    justify-content: space-evenly;
+}
+#one
+{
+    
+    height: 30px;
+    width: 50px;
+    border-radius: 90px 450px;
+    display: flex; font-size:20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px ;
+}
+#two
+{
+   
+    height: 30px;
+    width: 50px;
+    border-radius: 90px 450px;
+    display: flex; font-size:20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px ;
+}
+#three
+{
+    
+    height: 30px;
+    width: 50px;
+    border-radius: 90px 450px;
+    display: flex; font-size:20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px ;
+}
+#subtract
+{
+   
+    height: 30px;
+    width: 50px;
+    border-radius: 100px;
+    display: flex; font-size:30px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px ;
+}
+#frame4
+{
+    
+    margin: 2px;
+    width: 250px;
+    height: 50px; background-color: rgb(104, 104, 136);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#return
+{
+    
+    height: 30px;
+    width: 50px;
+    border-radius: 90px 450px;
+    display: flex; font-size:20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px ;
+}
+#zero
+{
+   
+    height: 30px;
+    width: 50px;
+    border-radius: 90px 450px;
+    display: flex; font-size:20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px ;
+}
+#dot
+{
+    
+    height: 30px;
+    width: 50px;
+    border-radius: 90px 450px;
+    display: flex; font-size:30px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px ;
+}
+#add
+{
+    height: 30px;
+    width: 50px;
+    border-radius: 100px;
+    display: flex; font-size:30px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px ;
+}
+    
+
+#frame5
+{
+    
+    margin: 2px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center; background-color: rgb(104, 104, 136);
+    justify-content: space-evenly;
+}
+#clear
+{
+    
+    height: 30px;
+    width: 100px; font-size:20px;
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    background-color:red;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 3px ;
+
+}
+#equal
+{
+   
+    height: 30px;
+    width: 100px;
+    color: black;
+    display: flex; font-size:30px;
+    align-items: center;
+    justify-content: center;
+    background-color:red;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 3px ;
+}
+#eight:hover{
+    background-color: firebrick;
+    color: white;
+}
+#nine:hover{
+    background-color: firebrick;
+    color: white;
+}
+#four:hover{
+    background-color: firebrick;
+    color: white;
+}
+#five:hover{
+    background-color: firebrick;
+    color: white;
+}
+#six:hover{
+    background-color: firebrick;
+    color: white;
+}
+#one:hover{
+    background-color: firebrick;
+    color: white;
+}
+#two:hover{
+    background-color: firebrick;
+    color: white;
+}
+#three:hover{
+    background-color: firebrick;
+    color: white;
+}
+#zero:hover{
+    background-color: firebrick;
+    color: white;
+}
+#dot:hover{
+    background-color: firebrick;
+    color: white;
+}
+#return:hover{
+    background-color: firebrick;
+    color: white;
+}
+#divide:hover{
+    background-color: firebrick;
+    color: white;
+}
+#multiply:hover{
+    background-color: firebrick;
+    color: white;
+}
+#subtract:hover{
+    background-color: firebrick;
+    color: white;
+}
+#add:hover{
+    background-color: firebrick;
+
+    color: white;
+}
+#equal:hover{
+    background-color: firebrick;
+    color: white;
+}
+#clear:hover{
+    background-color: firebrick;
+    color: white;
+}
+

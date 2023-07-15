@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="main">
+                <div id="top">0</div>
+                <div id="bottom">
+                    <div id="frame1">
+                        
+                            <div id="seven" onclick="get_input('7')">7</div>
+                            <div id="eight"  onclick="get_input('8')">8</div>
+                            <div id="nine"  onclick="get_input('9')">9</div>
+                            <div id="divide"  onclick="get_input('/')">/</div>
+                        
+                        
+                    </div>
+                    <div id="frame2">
+                       
+                            <div id="four"  onclick="get_input('4')">4</div>
+                            <div id="five"  onclick="get_input('5')">5</div>
+                            <div id="six"  onclick="get_input('6')">6</div>
+                    
+                        <div id="multiply"  onclick="get_input('*')">*</div>
+                    </div>
+                    <div id="frame3">
+                        <div id="one"  onclick="get_input('1')">1</div>
+                            <div id="two"  onclick="get_input('2')">2</div>
+                            <div id="three"  onclick="get_input('3')">3</div>
+                    
+                        <div id="subtract"  onclick="get_input('-')">-</div>
+                    </div>
+                    <div id="frame4">
+                        <div id="return" onclick="back()">&#8592;</div>
+                            <div id="zero"  onclick="get_input('0')">0</div>
+                            <div id="dot"  onclick="get_input('.')"> .</div>
+                    
+                        <div id="add"  onclick="get_input('+')">+</div>
+                    </div>
+                    <div id="frame5">
+                        <div id="clear" onclick="clr()">CLR</div>
+                        <div id="equal"  onclick="submit()">=</div>
+                    </div>
+                </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>
